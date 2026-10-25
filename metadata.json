@@ -1,0 +1,6 @@
+{
+  "name": "Verdana — Botanical Luxury Plants & Care",
+  "description": "Rare indoor plants curated by botanical experts, delivered in eco-conscious packaging with a 30-day health guarantee and intelligent plant care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

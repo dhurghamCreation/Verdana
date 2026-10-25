@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verdana — Botanical Luxury Plants & Care</title>
+    <meta name="description" content="Rare indoor plants curated by botanical experts, delivered in eco-conscious packaging with a 30-day health guarantee and intelligent plant care." />
+    <meta property="og:title" content="Verdana — Botanical Luxury Plants & Care" />
+    <meta property="og:description" content="Rare indoor plants curated by botanical experts, delivered in eco-conscious packaging with a 30-day health guarantee and intelligent plant care." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400;1,9..144,600&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='12' fill='%23073b24'/><circle cx='12' cy='12' r='7' fill='%23e28b27'/><path d='M12 5C8.5 5 6 8.5 6 12c0 3.5 2.5 7 6 7 4.5 0 6-6 6-10.5C18 6.5 15.5 5 12 5z' fill='%23073b24'/></svg>" />
+    <script>
+      (function() {
+        // Intercept and swallow sandbox Vite HMR WebSocket connection noise in sandboxed iframe
+        var origConsoleError = console.error;
+        console.error = function() {
+          var args = Array.prototype.slice.call(arguments);
+          var str = args.map(function(a) { return String(a || ''); }).join(' ');
+          if (
+            str.indexOf('failed to connect to websocket') !== -1 ||
+            str.indexOf('WebSocket closed without opened') !== -1 ||
+            (str.indexOf('[vite]') !== -1 && str.indexOf('websocket') !== -1)
+          ) {
+            return;
+          }
+          return origConsoleError.apply(console, args);
+        };
+
+        var origConsoleWarn = console.warn;
+        console.warn = function() {
+          var args = Array.prototype.slice.call(arguments);
+          var str = args.map(function(a) { return String(a || ''); }).join(' ');
+          if (
+            str.indexOf('failed to connect to websocket') !== -1 ||
+            str.indexOf('WebSocket closed without opened') !== -1
+          ) {
+            return;
+          }
+          return origConsoleWarn.apply(console, args);
+        };
+
+        window.addEventListener('error', function(event) {
+          var msg = event && (event.message || '');
+          if (msg && (msg.indexOf('WebSocket') !== -1 || msg.indexOf('ws://') !== -1 || msg.indexOf('[vite]') !== -1)) {
+            event.stopImmediatePropagation();
+            if (event.preventDefault) event.preventDefault();
+          }
+        }, true);
+
+        window.addEventListener('unhandledrejection', function(event) {
+          var reason = event && event.reason ? String(event.reason) : '';
+          if (reason.indexOf('WebSocket') !== -1 || reason.indexOf('websocket') !== -1) {
+            event.stopImmediatePropagation();
+            if (event.preventDefault) event.preventDefault();
+          }
+        }, true);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
