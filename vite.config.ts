@@ -12,7 +12,7 @@ export default defineConfig(() => {
       },
     },
     server: {
-      // HMR is disabled in AI Studio to prevent WebSocket connection errors in sandbox iframe
+      // HMR is disabled in AI Studio to prevent WebSocket connection errors in sandbox iframef
       hmr: false,
       watch: null,
     },
