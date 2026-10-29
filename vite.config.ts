@@ -18,3 +18,4 @@ export default defineConfig(() => {
     },
   };
 });
+//# SourceMappingURL=vite.config.js.map
