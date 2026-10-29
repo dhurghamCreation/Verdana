@@ -25,7 +25,7 @@ const regionalWaitlist: Array<{ email: string; zip: string; date: string }> = []
 const users: Map<string, UserProfile> = new Map();
 
 // -------------------------------------------------------------
-// Dynamic Botanical Promo Code Engine & Registry
+// Dynamic Botanical Promo Code Engine & Registry.
 // -------------------------------------------------------------
 interface PromoCodeData {
   code: string;
