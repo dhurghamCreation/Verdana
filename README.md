@@ -25,7 +25,7 @@
 
 The application ships as a single TypeScript monorepo (frontend + backend) powered by Vite's dev server in development and a unified Express host in production. Behind the scenes, a rich backend layer orchestrates in-memory data stores seeded with realistic order/review fixtures, a dynamic promo-code engine that generates cryptographically-diverse unique codes, server-side catalog filtering and sorting, expert botanical diagnosis with a deterministic rules-based fallback, conversational chat, newsletter subscriptions that mint bespoke discount codes, regional delivery waitlists, and an in-app ticket dispatch system for support, press, and career inquiries — all routed through a first-class internal address layer (`careers@verdanaplants.com`, `press@verdanaplants.com`, `care@verdanaplants.com`) that sidesteps traditional DNS/SMTP limitations entirely.
 
-> **Live App:** [https://verdana-210250377863.us-central1.run.app/]
+> **Live App:** [https://verdana-210250377863.us-central1.run.app/]  https://verdana-botanical-luxury-plants-care.ai.studio
 
 ---
 
